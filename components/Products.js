@@ -12,7 +12,7 @@ export default function Products({ title, description, cardWidth, products, bord
     <Container maxWidth="lg">
       <Typography
         text-align="center"
-        style={{ textAlign: "center" }}
+        style={{ textAlign: "center", margin: "5vh" }}
         component="h3"
         variant="h3"
         color="inherit"

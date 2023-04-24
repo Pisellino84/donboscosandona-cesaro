@@ -21,6 +21,8 @@ export default function LandingHero(props) {
                 margin: '0vh',
                 width: '100%'
             }}>
+            
+                
             <Paper
                 sx={{
                     position: 'relative',
@@ -28,6 +30,7 @@ export default function LandingHero(props) {
                     mb: 4,
                     height: props.height + 'vh',
                     backgroundImage: 'url(' + props.imageUrl + ')',
+                    backgroundAttachment: "fixed",
                     padding: 0,
                     margin: 0,
                     backgroundRepeat: 'no-repeat',
@@ -35,6 +38,7 @@ export default function LandingHero(props) {
                     backgroundPosition: 'center',
                 }}
             >
+
                 <Box
                     sx={{
                         position: 'absolute',
@@ -45,6 +49,7 @@ export default function LandingHero(props) {
                         backgroundColor: 'rgba(0,0,0,' + props.opacity + ' )',
                     }}
                 />
+                
                 <Grid container >
                     <Grid item md={3} xs={8} >
                         <Box
@@ -52,9 +57,10 @@ export default function LandingHero(props) {
                                 position: 'relative',
                                 p: { xs: 3, md: 6 },
                                 pr: { md: 0 },
-                                top: 55,
                             }}
                         >
+                            <img src={props.logo} width={150}/>
+                            
                             <Typography component="h2" variant="h6" color="inherit" gutterBottom>
                                 {props.siteName}
                             </Typography>
@@ -73,6 +79,7 @@ export default function LandingHero(props) {
                                 width: '100%',
                             }}
                         >
+                            
                             <Toolbar
                                 component="nav"
                                 variant="dense"
@@ -89,7 +96,10 @@ export default function LandingHero(props) {
                                     top: '1rem',
                                     right: '5rem',
                                 }}>
-                                    {
+                                    
+                                    
+                                    { 
+                                        /*
                                         props.menu.map((item) => (
                                             <Button className={styles.link_settori}
                                                 color="inherit"
@@ -103,6 +113,7 @@ export default function LandingHero(props) {
                                                 {item.title}
                                             </Button>
                                         ))
+                                        */
                                     }
                                 </Box>
                             </Toolbar>
@@ -117,7 +128,6 @@ export default function LandingHero(props) {
                                 position: 'relative',
                                 p: { xs: 3, md: 6 },
                                 pr: { md: 0 },
-                                top: (props.height / 3 - 10) + 'vh',
                             }}
                         >
                             <Typography component="h1" variant="h3" color="inherit" gutterBottom>

@@ -68,6 +68,7 @@ export default function Footer(props) {
                             </Typography>
                             <Grid container spacing={2} minHeight={160}>
                                 {
+                                    /*
                                     props.images.map((image) => (
                                         <Grid item xs={4} display="flex" justifyContent="center" alignItems="center">
                                             <Link
@@ -80,6 +81,7 @@ export default function Footer(props) {
                                             </Link>
                                         </Grid>
                                     ))
+                                    */
                                 }
                             </Grid>
                         </Grid>

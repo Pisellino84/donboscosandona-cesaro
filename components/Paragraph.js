@@ -7,6 +7,7 @@ export default function Paragraph(props) {
       sx={{
         position: "relative",
         marginTop: "2rem",
+        marginBottom: "2rem",
         padding: "3rem",
         textAlign: "justify",
         backgroundColor: props.backgroundColor,

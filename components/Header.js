@@ -18,7 +18,7 @@ export default function Header({titolo, sezioni}) {
                     align="center"
                     noWrap
                     sx={{ flex: 1 }}
-                >
+                > 
                     {titolo}
                 </Typography>
                 <IconButton>

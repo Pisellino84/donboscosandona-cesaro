@@ -1,24 +1,24 @@
 import Logos from '/components/Logos'
 import Footer from '/components/Footer'
 
-export const siteName = "CFP DON BOSCO"
-export const siteTitle = "CFP DON BOSCO - San Donà di Piave"
-export const siteDescription = "Sito ufficiale del Centro di Formazione Professionale don Bosco di San Donà di Piave"
+export const siteName = "Regalandia"
+export const siteTitle = "Regalandia - San Donà di Piave"
+export const siteDescription = "idee regalo"
 
-export const menu = [
+/*export const menu = [
     { title: 'Chi siamo', url: '/chi-siamo' },
     { title: 'Contatti', url: '/contatti' },
     { title: 'Dove siamo', url: '/dove-siamo' },
     { title: 'Privacy', url: '/privacy' },
     { title: 'Trasparenza', url: '/trasparenza' },
-]
+] */
 
-export const header = <Logos
-    logoUrl="https://archive.donboscosandona.it/img/ck/96448406eee9201111c084f9f70330b052012ac5.png"
-    sponsorUrl="https://archive.donboscosandona.it/img/ck/20b01b69c5c5586ea921a398e557a7767d004959.png"
+/*export const header = <Logos
+    logoUrl="/images/regalandia/logo.png"
+    
     color="#FFFFFF"
 />
-
+*/
 const menuFooter = [
     { title: 'Informatico', url: '/informatico' },
     { title: 'Energie', url: '/energie' },
@@ -46,13 +46,13 @@ export const footer = <Footer
     opacitycolor="1"
     opacity={1}
     title1="About Us"
-    description1="Footer che apparirà sul fondo di tutte le pagine del sito. Sarà possibile passare al componente un'immagine di sfondo opzionale oppure un colore di sfondo. L'attributo opaciy permetterà di sovrapporre all'immagine un Box con il colore di sfondo e un'opacità regolabile.
+    description1="Il sito di idee regalo è un'esperienza online pensata per chiunque voglia trovare il regalo perfetto per ogni occasione. Qui troverai una vasta selezione di idee regalo per compleanni, anniversari, festività o semplicemente per mostrare il tuo affetto a qualcuno di speciale. Sfoglia la nostra raccolta di prodotti unici e divertenti, dalle esperienze emozionanti ai gadget tecnologici all'ultimo grido. Il nostro team di esperti di regali ha curato una selezione di articoli dalle migliori marche e di produttori artigianali, per soddisfare qualsiasi esigenza e qualunque budget. In pochi clic, potrai trovare e acquistare il regalo perfetto e farlo consegnare direttamente all'indirizzo del destinatario. Siamo qui per aiutarti a rendere le tue occasioni speciali ancora più memorabili e siamo sicuri che troverai sul nostro sito l'ispirazione per il regalo perfetto!
 La prima colonna sarà destinata a un testo descrittivo, la seconda ai social, la terza a un menù di navigazione grafico (che porta ad es. ai settori).
 "
     title2="Social Feed"
     socials={socials}
-    title3="I Settori"
-    images={images}
+    title3=""
+    
     menu={menuFooter}
     copyright="Copyright (C) 2023 9dreams Agency."
 />
